@@ -9,5 +9,6 @@
 	stat = status
 	com = commit -m
 	all = add -A
+	files = ls-tree -r main --name-only
 [push]
 	autoSetupRemote = true
