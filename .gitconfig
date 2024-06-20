@@ -10,5 +10,6 @@
 	com = commit -m
 	all = add -A
 	files = ls-tree -r main --name-only
+	swap = checkout -
 [push]
 	autoSetupRemote = true
